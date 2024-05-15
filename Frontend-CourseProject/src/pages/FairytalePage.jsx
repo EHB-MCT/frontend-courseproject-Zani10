@@ -8,14 +8,10 @@ const FairytalePage = () => {
 
     // Example content for your fairytale page
     const fairytales = {
-        Cinderella: {
-            title: "Cinderella",
-            description: "A classic fairytale about a girl who overcomes adversity with the help of her fairy godmother."
+        Roodkapje: {
+            title: "Roodkapje",
+            description: "A classic fairytale about Little Red Riding Hood and the Big Bad Wolf."
         },
-        "The Frog Prince": {
-            title: "The Frog Prince",
-            description: "A tale about a kiss that transforms a frog into a prince."
-        }
         // Add more fairytales as needed
     };
 
