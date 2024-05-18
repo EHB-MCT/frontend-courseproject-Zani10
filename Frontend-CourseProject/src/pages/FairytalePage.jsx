@@ -1,45 +1,27 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { Parallax } from 'react-parallax';
+import { Parallax } from 'react-scroll-parallax';
+import './FairytalePage.css';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 const FairytalePage = () => {
-    const { name } = useParams();
-
-    // Example content for your fairytale page
-    const fairytales = {
-        Roodkapje: {
-            title: "Roodkapje",
-            description: "A classic fairytale about Little Red Riding Hood and the Big Bad Wolf."
-        },
-    };
-
-    const fairytale = fairytales[name];
-
-    if (!fairytale) {
-        return <div>Fairytale not found</div>;
-    }
-
     return (
         <div className="fairytale-page">
-            <Parallax bgImage="/path/to/image.jpg" strength={500}>
-                <div style={{ height: 500 }}>
-                    <motion.h1
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ duration: 1 }}
-                    >
-                        {fairytale.title}
-                    </motion.h1>
+            <Navigation />
+            <div className="story-content">
+                <div className="page-1">
+                    <img src="./assets/one.svg" alt="First Image" className="first-image" />
                 </div>
-            </Parallax>
-            <motion.div
-                initial={{ x: -100 }}
-                animate={{ x: 0 }}
-                transition={{ duration: 0.5 }}
-            >
-                <p>{fairytale.description}</p>
-            </motion.div>
+                <div className="page-2">
+                    <Parallax className="parallax-layer" y={[-20, 20]}>
+                        <img src="path_to_sky_image.png" alt="Sky" className="sky-image" />
+                    </Parallax>
+                    <Parallax className="parallax-layer" y={[20, -20]}>
+                        <img src="path_to_mountain_image.png" alt="Mountains and Houses" className="mountain-image" />
+                    </Parallax>
+                </div>
+            </div>
+            <Footer />
         </div>
     );
 };
