@@ -1,23 +1,18 @@
 import { Link } from 'react-router-dom';
-import { FaSearch } from 'react-icons/fa'; 
 import './Navigation.css';
+import SearchBar from './SearchBar';
+import logo from '../assets/ErWasEens-Logo.png';
 
 function Navigation() {
     return (
         <nav className="navigation">
             {/* Logo */}
             <div className="logo">
-                <img src="src\assets\ErWasEens-Logo.png" alt="Logo" />
+                <img src={logo} alt="Logo" />
             </div>
             
             {/* Search Bar */}
-            <div className="search-bar">
-                <input
-                    type="text"
-                    placeholder="Search fairytales..."
-                />
-                <FaSearch className="search-icon" />
-            </div>
+            <SearchBar />   
             
             {/* Navigation Buttons */}
             <ul className="nav-links">

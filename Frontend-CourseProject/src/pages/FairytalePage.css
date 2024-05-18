@@ -1,13 +1,11 @@
-/* FairytalePage.css */
-
 .fairytale-page {
     display: flex;
     flex-direction: column;
 }
 
-.story-content {
-    margin-top: 4rem; /* Adjust based on the height of your navigation */
-}
+/* .story-content {
+    margin-top: 4rem; 
+} */
 
 .page-1,
 .page-2 {

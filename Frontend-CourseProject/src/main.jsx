@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
-import { ParallaxProvider } from 'react-scroll-parallax'; // Import ParallaxProvider from the correct package
+import { ParallaxProvider } from 'react-scroll-parallax';
 import './index.css';
 import App from './App';
 import routes from './routes';

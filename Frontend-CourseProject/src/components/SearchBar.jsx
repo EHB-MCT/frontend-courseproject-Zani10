@@ -1,19 +1,15 @@
-import PropTypes from 'prop-types';
+import { FaSearch } from 'react-icons/fa'; 
 
-function SearchBar({ searchTerm, setSearchTerm }) {
+function SearchBar() {
     return (
-        <input
-            type="text"
-            placeholder="Search fairytales..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-        />
+        <div className="search-bar">
+                <input
+                    type="text"
+                    placeholder="Search fairytales..."
+                />
+                <FaSearch className="search-icon" />
+            </div>
     );
 }
-
-SearchBar.propTypes = {
-    searchTerm: PropTypes.string.isRequired,
-    setSearchTerm: PropTypes.func.isRequired
-};
 
 export default SearchBar;
