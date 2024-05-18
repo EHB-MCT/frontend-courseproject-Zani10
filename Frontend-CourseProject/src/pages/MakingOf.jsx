@@ -1,4 +1,3 @@
-import React from 'react';
 import './MakingOf.css';
 import Navigation from '../components/Navigation';
 import Sidebar from '../components/Sidebar';

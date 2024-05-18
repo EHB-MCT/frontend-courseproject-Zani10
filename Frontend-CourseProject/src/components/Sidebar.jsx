@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaMagic, FaBook, FaHeart, FaPaw } from 'react-icons/fa';
 import './Sidebar.css';
 

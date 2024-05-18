@@ -1,4 +1,3 @@
-import React from 'react';
 import { Parallax } from 'react-scroll-parallax';
 import './FairytalePage.css';
 import Navigation from '../components/Navigation';
