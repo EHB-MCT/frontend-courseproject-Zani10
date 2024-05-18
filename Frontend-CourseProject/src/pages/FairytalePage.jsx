@@ -12,7 +12,6 @@ const FairytalePage = () => {
             title: "Roodkapje",
             description: "A classic fairytale about Little Red Riding Hood and the Big Bad Wolf."
         },
-        // Add more fairytales as needed
     };
 
     const fairytale = fairytales[name];

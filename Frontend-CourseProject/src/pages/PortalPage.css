@@ -1,0 +1,45 @@
+/* PortalPage.css */
+
+.page-container {
+    display: flex;
+    flex-direction: column;background-color: black;
+}
+
+
+.main-content {
+    display: flex;
+    margin-top: 4rem; /* Adjust based on the height of your navigation */
+    
+}
+
+
+.content-area {
+    margin-left: 220px; /* Adjust to accommodate the width of the sidebar */
+    padding: 1rem;
+    flex-grow: 1;
+    /* background-color: black; */
+}
+
+.portal-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    margin-left: 220px;
+}
+
+.fairytale-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-left: 220px; /* Ensure cards start to the right of the sidebar */
+}
+
+.all-projects-button {
+    background-color: #00a651;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto 0;
+}

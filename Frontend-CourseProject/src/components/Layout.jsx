@@ -1,11 +1,13 @@
 // import React from 'react';
-import PropTypes from 'prop-types'; // Import PropTypes
+import PropTypes from 'prop-types'; 
 import Navigation from './Navigation';
+import Sidebar from './Sidebar'; 
 
 const Layout = ({ children }) => {
     return (
         <div>
             <Navigation />
+            <Sidebar />
             <div>{children}</div>
         </div>
     );

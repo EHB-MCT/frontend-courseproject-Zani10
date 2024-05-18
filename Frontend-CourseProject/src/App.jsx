@@ -6,7 +6,6 @@ function App() {
   const element = useRoutes(routes);
   return (
     <>
-      <h1>React Router Demo</h1>
       {element}
     </>
   );

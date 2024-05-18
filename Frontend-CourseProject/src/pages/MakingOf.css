@@ -1,0 +1,72 @@
+.making-of-page {
+    padding: 2rem;
+}
+
+.making-of-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.project-overview {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.project-image-container {
+    position: relative;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.project-image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.project-image-text h3,
+.project-image-text p {
+    margin: 0;
+}
+
+.project-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.project-video {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.project-description {
+    flex: 1;
+    color: white;
+    background-color: #161616;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.extra-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.extra-image {
+    width: 32%;
+    height: auto;
+    border-radius: 10px;
+}
