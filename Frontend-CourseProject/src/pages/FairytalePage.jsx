@@ -2,8 +2,26 @@ import { Parallax } from 'react-scroll-parallax';
 import './FairytalePage.css';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import React, { useEffect } from 'react';
 
 const FairytalePage = () => {
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const nav = document.querySelector('.navigation');
+            if (window.scrollY > 50) {
+                nav.classList.add('hidden');
+            } else {
+                nav.classList.remove('hidden');
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div className="fairytale-page">
             <Navigation />
@@ -20,7 +38,7 @@ const FairytalePage = () => {
                     </Parallax>
                 </div>
             </div>
-            <Footer />
+            
         </div>
     );
 };

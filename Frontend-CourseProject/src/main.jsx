@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
+import { ParallaxProvider } from 'react-scroll-parallax'; // Import ParallaxProvider from the correct package
 import './index.css';
 import App from './App';
 import routes from './routes';
@@ -8,8 +9,10 @@ import routes from './routes';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={routes}>
-      <App />
-    </RouterProvider>
+  <ParallaxProvider>
+      <RouterProvider router={routes}>
+        <App />
+      </RouterProvider>
+    </ParallaxProvider>
   </React.StrictMode>
 );

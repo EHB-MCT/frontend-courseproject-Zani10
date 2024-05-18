@@ -1,4 +1,3 @@
-import React from 'react';
 import './PortalPage.css';
 import FairytaleCard from '../components/FairytaleCard';
 import Navigation from '../components/Navigation';

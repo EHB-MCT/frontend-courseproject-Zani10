@@ -13,7 +13,7 @@ const routes = createBrowserRouter([
     element: <MakingOf />,
   },
   {
-    path: 'fairytale/:name',
+    path: 'fairytale/zani',
     element: <FairytalePage />,
   },
 ]);
