@@ -1,13 +1,12 @@
-import { Parallax } from 'react-scroll-parallax';
-import './FairytalePage.css';
-import Navigation from '../components/FairytaleNavigation';
 import React, { useEffect } from 'react';
+import { Parallax } from 'react-scroll-parallax';
+import Navigation from '../components/FairytaleNavigation';
+import './FairytalePage.css';
 import firstImage from '../assets/one.svg';
 import village from '../assets/village.png';
 import sky from '../assets/sky.png';
 
 const FairytalePage = () => {
-
     useEffect(() => {
         const handleScroll = () => {
             const nav = document.querySelector('.fairytale-navigation');
@@ -15,6 +14,20 @@ const FairytalePage = () => {
                 nav.classList.add('hidden');
             } else {
                 nav.classList.remove('hidden');
+            }
+
+            const firstImage = document.querySelector('.first-image');
+            const secondPart = document.querySelector('.page-2');
+            const scrollPosition = window.scrollY;
+
+            if (scrollPosition <= 500) {
+                firstImage.style.transform = `scale(${1 + scrollPosition / 1000})`;
+                firstImage.style.opacity = `${1 - scrollPosition / 500}`;
+                firstImage.style.position = 'fixed';
+                firstImage.style.top = '0';
+            } else {
+                secondPart.style.opacity = `${(scrollPosition - 500) / 500}`;
+                firstImage.style.opacity = '0';
             }
         };
 
@@ -36,11 +49,10 @@ const FairytalePage = () => {
                         <img src={sky} alt="Sky" className="sky-image" />
                     </Parallax>
                     <Parallax className="parallax-layer" y={[20, -20]}>
-                        <img src={village} alt="Mountains and Houses" className="mountain-image" />
+                        <img src={village} alt="Village" className="village-image" />
                     </Parallax>
                 </div>
             </div>
-            
         </div>
     );
 };
