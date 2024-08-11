@@ -1,0 +1,94 @@
+.village-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .sky-image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+  
+  .village-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .village-title {
+    font-size: 4rem;
+    font-family: 'Cinzel', serif; /* Elegant font */
+    color: #ffd700; /* Gold color */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    
+    position: absolute;
+    top: 0px;
+    width: calc(100% - 46px);
+    z-index: 10;
+    text-align: center;
+    padding: 20px;
+    
+    border: 3px solid #ffd700; /* Solid Gold border */
+    border-radius:12%;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Royal blue gradient */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #ffd700; /* Cursor color */
+    animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #ffd700; } /* Cursor blink */
+}
+
+
+.village-logo-link {
+  flex-shrink: 0;
+}
+
+.village-logo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  z-index: 20;
+}
+  
+
+.village-makingof-link {
+  position: absolute;
+  top: 35px;
+  right: 50px;
+  font-size: 1.5rem;
+  color: #ffffff; /* Gold color */
+  text-decoration: none;
+  
+  padding: 10px 20px;
+  /* Royal blue gradient */
+  /* border: 1px solid #ffd700; */
+  border-radius: 10px;
+  
+  z-index: 20;
+}
+
+.village-makingof-link:hover {
+  background: linear-gradient(to bottom, #2a5298, #1e3c72); /* Inverse gradient on hover */
+}

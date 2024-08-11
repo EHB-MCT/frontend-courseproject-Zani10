@@ -1,0 +1,57 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fairytale-navigation {
+    background-color: #AE0018;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 !important;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.661);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    
+}
+
+
+.back-arrow {
+    color: white;
+    text-decoration: none;
+    margin-left: 3em;
+}
+
+.logo2 img {
+    width: 120px; 
+    height: auto; 
+    /* margin-right: 15em; */
+    align-items: baseline;
+    margin-left: 0;
+    margin-right: 27em;
+}
+
+.project-details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    margin-right: 1em;
+}
+
+.project-details span {
+    margin: 0 2em;
+}
+
+.project-title,
+.project-author,
+.project-makingof {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}

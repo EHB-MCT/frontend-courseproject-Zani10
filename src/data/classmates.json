@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "title": "Roodkapje",
+        "imageSrc": "/images/roodkapje_1.jpg",
+        "creator": "Taysir Alshahrour",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-Taysir96/",
+        "category": "Animal Stories"
+    },
+    {
+        "id": 2,
+        "title": "Hans & Grietje",
+        "imageSrc": "/images/hans-grietje.jpg",
+        "creator": "Maxime Bastien",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-Maxime122004/HansGrietje",
+        "category": "Magic"
+    },
+    {
+        "id": 3,
+        "title": "Klein duimpje",
+        "imageSrc": "/images/klein-duimpje.jpg",
+        "creator": "Kobe Berckmans",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-KobeBerckmans/parallax",
+        "category": "Quests"
+    },
+    {
+        "id": 4,
+        "title": "De kleine zeemeermin",
+        "imageSrc": "/images/kleine-zeemermin.jpg",
+        "creator": "Nelle Favoreel",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-NelleFavoreel/",
+        "category": "Romance"
+    },
+    {
+        "id": 5,
+        "title": "De Minotaurus",
+        "imageSrc": "/images/minotaurus.jpg",
+        "creator": "Rémy Gistelinck",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-remygist/",
+        "category": "Quests"
+    },
+    {
+        "id": 6,
+        "title": "Rapunzel",
+        "imageSrc": "/images/rapunzel.jpeg",
+        "creator": "Taha Hasan",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-tahahasan7/",
+        "category": "Romance"
+    },
+    {
+        "id": 7,
+        "title": "The ugly duckling",
+        "imageSrc": "/images/ugly-duckling.jpg",
+        "creator": "Thomas Heusdens",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-ThomasHeusdens/",
+        "category": "Animal Stories"
+    },
+    {
+        "id": 8,
+        "title": "De Kikker en de Os",
+        "imageSrc": "/images/kikker-os.jpg",
+        "creator": "Yassine Tazi",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-YassineTazi2022/",
+        "category": "Animal Stories"
+    },
+    {
+        "id": 9,
+        "title": "Ali-baba en de 40 rovers",
+        "imageSrc": "/images/alibaba-40-rovers.jpg",
+        "creator": "Youssef Auassar",
+        "url": "https://ehb-mct.github.io/web2-course-project-front-end-YoussefAuassar/",
+        "category": "Quests"
+    },
+    {
+        "id": 10,
+        "title": "Roodkapje",
+        "imageSrc": "/images/roodkapje-zani.png",
+        "creator": "Zani Dobruna",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-Zani10/",
+        "category": "Animal Stories"
+    },
+    {
+        "id": 11,
+        "title": "De princess en de erwt",
+        "imageSrc": "/images/prinses-erwt.jpg",
+        "creator": "Glory Menga",
+        "url": "https://friendly-eureka-374rmg8.pages.github.io/",
+        "category": "Romance"
+    },
+    {
+        "id": 12,
+        "title": "Beauty and the Beast",
+        "imageSrc": "/images/beauty-beast.jpg",
+        "creator": "Wail El Majdoubi",
+        "url": "https://Sprookjeswebsite.com/sprookje10",
+        "category": "Romance"
+    },
+    {
+        "id": 13,
+        "title": "Repelsteeltje",
+        "imageSrc": "/images/Repelsteeltje.png",
+        "creator": "Jochen Sunaert",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-JochenSunaert/repelsteeltje",
+        "category": "Magic"
+    },
+    {
+        "id": 14,
+        "title": "De wolf en de 17 geitjes",
+        "imageSrc": "/images/wolf-7geitjes.jpg",
+        "creator": "Mikolaj Buelens",
+        "url": "https://Sprookjeswebsite.com/sprookje7",
+        "category": "Animal Stories"
+    },
+    {
+        "id": 15,
+        "title": "Rapunzel",
+        "imageSrc": "/images/rapunzel2.jpeg",
+        "creator": "Jorbe Geys",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-JorbeGeys/",
+        "category": "Romance"
+    },
+    {
+        "id": 16,
+        "title": "De wolf en zeven geiten",
+        "imageSrc": "/images/wolf-7geitjes.jpg",
+        "creator": "Berkay Unutkan",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-BerkayUnutkanEHB/",
+        "category": "Animal Stories"
+    },
+    {
+        "id": 17,
+        "title": "Sneeuwwitje en de 7 dwergen",
+        "imageSrc": "/images/sneeuwwitje-7dwergen.jpg",
+        "creator": "Michaël Stoikos",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-MichaelStoikos",
+        "category": "Magic"
+    },
+    {
+        "id": 18,
+        "title": "De drie biggetjes",
+        "imageSrc": "/images/3biggetjes.jpg",
+        "creator": "Rachelle van Uden",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-RachellevanUden/DeDrieBiggetjes",
+        "category": "Animal Stories"
+    },
+    {
+        "id": 19,
+        "title": "Sprookje 19",
+        "imageSrc": "/images/Default-image.webp",
+        "creator": "Robbe De Clerck",
+        "url": "https://github.com/EHB-MCT/frontend-courseproject-RobbeDeClerck",
+        "category": "Magic"
+    },
+    {
+        "id": 20,
+        "title": "Aladdin",
+        "imageSrc": "/images/alladin.jpg",
+        "creator": "Karsten Verherstraeten",
+        "url": "https://ehb-mct.github.io/frontend-courseproject-KarstenVerherstraeten/",
+        "category": "Quests"
+    },
+    {
+        "id": 21,
+        "title": "Sprookje 21",
+        "imageSrc": "/images/Default-image.webp",
+        "creator": "Milan Langhendries",
+        "url": "https://upgraded-train-n84y6yw.pages.github.io/",
+        "category": "Magic"
+    }
+]

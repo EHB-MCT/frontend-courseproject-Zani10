@@ -1,0 +1,172 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #161616;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.content-area {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.making-of-title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.project-overview-link {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.project-overview {
+    position: relative;
+    margin-bottom: 2rem;
+    transition: filter 0.3s ease;
+}
+
+.project-overview:hover {
+    filter: brightness(1.2);
+}
+
+.project-image-container {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(0.8);
+    object-position: 0 -6.5em;
+}
+
+.project-image-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+}
+
+.project-image-text h3 {
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.project-image-text p {
+    margin: 0;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+
+.project-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.project-video {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.project-description {
+    flex: 1;
+    color: white;
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.project-description h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.extra-images-title {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.extra-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+.extra-image {
+    flex: 1;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: brightness(0.9);
+    transition: transform 0.3s ease;
+    width: 200px;
+}
+
+.extra-image:hover {
+    transform: scale(1.05);
+}
+
+.project-description {
+    max-height: 268px; /* Limit the height of the description when collapsed */
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.project-description.expanded {
+    max-height: 1200px; /* Enough height to show all content when expanded */
+}
+
+.read-more-button {
+    background-color: #00a651;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    /* margin-top: 1rem; */
+    display: block;
+}
+.read-more-button:hover {
+    background-color: #028a44;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    /* margin-top: 1rem; */
+    display: block;
+}
+
+.project-description li {
+    margin-bottom: 1em;
+}

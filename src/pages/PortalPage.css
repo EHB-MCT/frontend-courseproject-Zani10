@@ -1,0 +1,57 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    overflow-y: auto; 
+}
+
+.main-content {
+    display: flex;
+    position: relative; 
+    padding-bottom: 4rem; 
+}
+
+
+.content-area {
+    margin-left: 220px; 
+    padding: 1rem;
+    flex-grow: 1;
+    overflow-y: auto; /* Allow scrolling within the content area */
+}
+
+
+.portal-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    margin-left: 220px;
+}
+
+.fairytale-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    
+    gap: 1rem;
+    justify-content: flex-start; 
+    margin-left: 200px; 
+}
+
+
+.all-projects-button {
+    background-color: #00a651;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto 0;
+    text-align: center;
+    position: relative; /* Add relative positioning */
+    left: 8em; /* Adjust this value to move the button slightly to the right */
+}
+
+.all-projects-button:hover {
+    background-color: #028a44;
+    color: white;
+}

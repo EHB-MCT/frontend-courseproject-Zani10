@@ -1,0 +1,35 @@
+.bedroom-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.bedroom-image {
+  width: 100%;
+  height: 920px;
+  position: absolute;
+}
+
+.bedroom-candle {
+  position: absolute;
+  width: 45%;
+}
+
+.ears-image {
+  position: absolute;
+  width: 100%;
+  height: 920px;
+}
+
+.eyes-image {
+  position: absolute;
+  width: 100%;
+  height: 920px;
+}
+
+.mouth-image {
+  position: absolute;
+  width: 100%;
+  height: 920px;
+}

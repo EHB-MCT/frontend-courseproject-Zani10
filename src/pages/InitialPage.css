@@ -1,0 +1,62 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.initial-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.full-image {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  transition: transform 2s, opacity 2s;
+}
+
+.initialpage-logo-link {
+  flex-shrink: 0;
+}
+
+.initialpage-logo {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  z-index: 20;
+}
+
+.initialpage-makingof-link {
+  position: absolute;
+  top: 35px;
+  right: 50px;
+  font-size: 1.5rem;
+  color: #ffffff; /* Gold color */
+  text-decoration: none;
+  
+  padding: 10px 20px;
+  /* Royal blue gradient */
+  /* border: 1px solid #ffd700; */
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  z-index: 20;
+}
+
+.initialpage-makingof-link:hover {
+  background: linear-gradient(to bottom, #2a5298, #1e3c72); /* Inverse gradient on hover */
+}

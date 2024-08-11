@@ -1,0 +1,33 @@
+.forest-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .forest-bg {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+  }
+  
+  .forest-character {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+  }
+
+  .wolf-forest {
+    width: 25%;
+  }
+  .roodkapje-forest {
+    width: 13%;
+  }
+  
+  .forest-trees {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    
+  }
+  

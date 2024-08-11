@@ -1,0 +1,51 @@
+.house-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .house-image {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+  }
+  
+  .house-character {
+    position: absolute;
+  }
+  
+  .roodkapje-house {
+    width: 10%;
+  }
+  
+  .chickens {
+    width: 5%;
+  }
+  
+  .butterfly {
+    width: 5%;
+  }
+  
+  .clickable-door {
+    position: absolute;
+    top: 50%; /* Adjust these values based on the actual door position */
+    left: 56.6%;
+    width: 9%;
+    height: 37%;
+    cursor: pointer;
+    border: 8px dotted yellow;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    z-index: 0;
+    box-shadow: 0 0 10px yellow;
+  }
+  
+  .clickable-door:hover {
+    background-color:rgba(194, 23, 23, 0.721);
+    border: 6px solid red;
+    box-shadow: 0 0 10px red;
+  }
+  
+  
