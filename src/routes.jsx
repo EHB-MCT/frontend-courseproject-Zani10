@@ -16,6 +16,9 @@ const routes = createBrowserRouter([
     path: 'fairytale/zani',
     element: <FairytalePage />,
   },
+  {
+    basename: '/frontend-courseproject-Zani10',
+  }
 ]);
 
 export default routes;
